@@ -31,7 +31,7 @@ setTimeout(function(){
 },2000);
 //callback function hamesa async code mei ans aane par chalta hai
 
-//jo bhi main stack pe hota hai wo output karta hai and jo bhi side stack pe hoti hai wo behind the scenes proccessing kar sakta hai, aur jab uski proccessing complete ho use main stack pe laa kar challa sakta hai
+//jo bhi main stack pe hota hai wo output karta hai and jo bhi side stack pe hoti hai wo behind the scenes proccessing kar sakta hai,           aur jab uski proccessing complete ho use main stack pe laa kar challa sakta hai .
 
 
 
