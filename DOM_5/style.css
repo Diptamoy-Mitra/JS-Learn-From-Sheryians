@@ -21,3 +21,13 @@ button{
   font-size: 20px;
 
 }
+h1{
+  font-size:70px;
+  color: blueviolet;
+  font-weight: 800;
+}
+#box{
+  height: 300px;
+  background-color: seleniumyellow;
+  width: 300px;
+}

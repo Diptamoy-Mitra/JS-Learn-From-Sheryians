@@ -39,11 +39,13 @@ btn.addEventListener('click',()=>{
       flag=1;
     }
     else{
-      bulb.style.backgroundColor="white";
+      bulb.style.backgroundColor="transparent";
       btn.innerHTML="ON";
       flag=0;
     }
 })
+
+
 
 
 
