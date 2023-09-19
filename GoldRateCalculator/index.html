@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gold Rate Calculator</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+
+<body>
+  <header class="bg-blue-400 p-4">
+    <h1 class="text-white text-3xl text-center font-semibold">Gold Rate Calculator</h1>
+  </header>
+  <main class="container mx-auto mt-6 p-4">
+    <form action="" id="goldCalculator" class="bg-gray-200 p-4 rounded-lg shadow-md">
+      <div class="mb-4">
+        <label for="weight" class="block font-semibold">Gold Weight(Grams): </label>
+        <input type="number" id="weight" class="w-full px-2 py-1 border rounded mt-2">
+      </div>
+      <div class="mb-4">
+        <label for="purity" class="block font-semibold">Gold Purity(Carat): </label>
+        <input type="number" id="purity" class="w-full px-2 py-1 border rounded mt-2">
+      </div>
+      <div class="mb-4">
+        <label for="currentGoldPrice" class="block font-semibold">Gold Price(Per Gram Rs.) (24-Carat): </label>
+        <input type="number" id="currentGoldPrice" class="w-full px-2 py-1 border rounded mt-2">
+      </div>
+      <div class="mb-4">
+        <label for="makingCharge" class="block font-semibold">Making Charges(%): </label>
+        <input type="number" id="makingCharge" class="w-full px-2 py-1 border rounded mt-2">
+      </div>
+      <div class="mb-4">
+        <label for="gst" class="block font-semibold">GST Rate(%): </label>
+        <input type="number" id="gst" class="w-full px-2 py-1 border rounded mt-2">
+      </div>
+      <button type="button" id="calculate" class="text-white bg-blue-400 py-3 px-4 rounded-md hover:bg-blue-600">Calculate</button>
+    </form>
+
+    <div class="text-black mt-6 text-center mx-auto  p-4 rounded "  id="result">
+
+    </div>
+
+  </main>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
